@@ -1,7 +1,7 @@
 <template>
   <div class="chart-wrapper">
     <apexchart 
-      width="800" type="line" 
+      width="800" type="bar" 
       :options="options" :series="series">
     </apexchart>
 </div>
